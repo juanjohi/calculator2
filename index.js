@@ -11,7 +11,7 @@ function clearDisplay() {
 
 function demo() {
     display.value = 'Natujenge'
-    
+
 }
 
 
@@ -19,8 +19,8 @@ async function calculate() {
     const expression = display.value;
     try {
         const response = await fetch('https://github.com/juanjohi/calculator2/calculate', {
+            mode: 'cors',
             method: 'POST',
-            mode: 'no-cors',
             headers: {
                 'Content-Type': 'application/json'
             },

@@ -18,7 +18,7 @@ function demo() {
 async function calculate() {
     const expression = display.value;
     try {
-        const response = await fetch("calculator2-ten-xi.vercel.app", {
+        const response = await fetch("calculator2-ten-xi.vercel.app/calculate", {
             mode: 'cors',
             method: 'POST',
             headers: {

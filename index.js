@@ -18,7 +18,7 @@ function demo() {
 async function calculate() {
     const expression = display.value;
     try {
-        const response = await fetch('http://localhost:5500/calculate', {
+        const response = await fetch('https://calculator2-iota.vercel.app/calculate', {
             method: 'POST',
             mode: 'cors',
             headers: {

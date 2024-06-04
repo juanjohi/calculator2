@@ -20,7 +20,7 @@ async function calculate() {
     try {
         const response = await fetch('https://github.com/juanjohi/calculator2/calculate', {
             method: 'POST',
-            mode: 'cors',
+            mode: 'no-cors',
             headers: {
                 'Content-Type': 'application/json'
             },

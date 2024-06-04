@@ -20,7 +20,7 @@ async function calculate() {
     const targetUrl = 'https://calculator2-iota.vercel.app/'
     try {
         const response = await fetch(targetUrl, {
-            mode: 'cors',
+   
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json'
